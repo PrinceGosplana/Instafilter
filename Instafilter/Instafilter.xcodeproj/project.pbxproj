@@ -11,6 +11,7 @@
 		95202AE82B3D2DB100723164 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95202AE72B3D2DB100723164 /* ContentView.swift */; };
 		95202AEA2B3D2DB300723164 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95202AE92B3D2DB300723164 /* Assets.xcassets */; };
 		95202AEE2B3D2DB400723164 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95202AED2B3D2DB400723164 /* Preview Assets.xcassets */; };
+		95202AF62B3D2FFA00723164 /* BlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95202AF52B3D2FFA00723164 /* BlurView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		95202AE92B3D2DB300723164 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		95202AEB2B3D2DB400723164 /* Instafilter.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Instafilter.entitlements; sourceTree = "<group>"; };
 		95202AED2B3D2DB400723164 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		95202AF52B3D2FFA00723164 /* BlurView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +54,7 @@
 		95202AE42B3D2DB100723164 /* Instafilter */ = {
 			isa = PBXGroup;
 			children = (
+				95202AF42B3D2FE800723164 /* Study */,
 				95202AE52B3D2DB100723164 /* InstafilterApp.swift */,
 				95202AE72B3D2DB100723164 /* ContentView.swift */,
 				95202AE92B3D2DB300723164 /* Assets.xcassets */,
@@ -67,6 +70,14 @@
 				95202AED2B3D2DB400723164 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		95202AF42B3D2FE800723164 /* Study */ = {
+			isa = PBXGroup;
+			children = (
+				95202AF52B3D2FFA00723164 /* BlurView.swift */,
+			);
+			path = Study;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,6 +152,7 @@
 			files = (
 				95202AE82B3D2DB100723164 /* ContentView.swift in Sources */,
 				95202AE62B3D2DB100723164 /* InstafilterApp.swift in Sources */,
+				95202AF62B3D2FFA00723164 /* BlurView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
