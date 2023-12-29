@@ -13,6 +13,7 @@
 		95202AEE2B3D2DB400723164 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95202AED2B3D2DB400723164 /* Preview Assets.xcassets */; };
 		95202AF62B3D2FFA00723164 /* BlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95202AF52B3D2FFA00723164 /* BlurView.swift */; };
 		95202AF82B3DDC0300723164 /* ConfirmationDialogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95202AF72B3DDC0300723164 /* ConfirmationDialogView.swift */; };
+		95202AFA2B3E873F00723164 /* CoreImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95202AF92B3E873F00723164 /* CoreImageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		95202AED2B3D2DB400723164 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		95202AF52B3D2FFA00723164 /* BlurView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurView.swift; sourceTree = "<group>"; };
 		95202AF72B3DDC0300723164 /* ConfirmationDialogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmationDialogView.swift; sourceTree = "<group>"; };
+		95202AF92B3E873F00723164 /* CoreImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreImageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 			children = (
 				95202AF52B3D2FFA00723164 /* BlurView.swift */,
 				95202AF72B3DDC0300723164 /* ConfirmationDialogView.swift */,
+				95202AF92B3E873F00723164 /* CoreImageView.swift */,
 			);
 			path = Study;
 			sourceTree = "<group>";
@@ -153,6 +156,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95202AFA2B3E873F00723164 /* CoreImageView.swift in Sources */,
 				95202AE82B3D2DB100723164 /* ContentView.swift in Sources */,
 				95202AE62B3D2DB100723164 /* InstafilterApp.swift in Sources */,
 				95202AF62B3D2FFA00723164 /* BlurView.swift in Sources */,
