@@ -14,6 +14,7 @@
 		95202AF62B3D2FFA00723164 /* BlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95202AF52B3D2FFA00723164 /* BlurView.swift */; };
 		95202AF82B3DDC0300723164 /* ConfirmationDialogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95202AF72B3DDC0300723164 /* ConfirmationDialogView.swift */; };
 		95202AFA2B3E873F00723164 /* CoreImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95202AF92B3E873F00723164 /* CoreImageView.swift */; };
+		95202AFC2B3EF4CE00723164 /* EmptyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95202AFB2B3EF4CE00723164 /* EmptyView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		95202AF52B3D2FFA00723164 /* BlurView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurView.swift; sourceTree = "<group>"; };
 		95202AF72B3DDC0300723164 /* ConfirmationDialogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmationDialogView.swift; sourceTree = "<group>"; };
 		95202AF92B3E873F00723164 /* CoreImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreImageView.swift; sourceTree = "<group>"; };
+		95202AFB2B3EF4CE00723164 /* EmptyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 				95202AF52B3D2FFA00723164 /* BlurView.swift */,
 				95202AF72B3DDC0300723164 /* ConfirmationDialogView.swift */,
 				95202AF92B3E873F00723164 /* CoreImageView.swift */,
+				95202AFB2B3EF4CE00723164 /* EmptyView.swift */,
 			);
 			path = Study;
 			sourceTree = "<group>";
@@ -160,6 +163,7 @@
 				95202AE82B3D2DB100723164 /* ContentView.swift in Sources */,
 				95202AE62B3D2DB100723164 /* InstafilterApp.swift in Sources */,
 				95202AF62B3D2FFA00723164 /* BlurView.swift in Sources */,
+				95202AFC2B3EF4CE00723164 /* EmptyView.swift in Sources */,
 				95202AF82B3DDC0300723164 /* ConfirmationDialogView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
