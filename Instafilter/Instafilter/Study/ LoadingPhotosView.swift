@@ -5,14 +5,20 @@
 //  Created by OLEKSANDR ISAIEV on 30.12.2023.
 //
 
+import PhotosUI
 import SwiftUI
 
-struct _LoadingPhotosView: View {
+struct LoadingPhotosView: View {
+    @State private var pickerItem: PhotosPickerItem?
+    @State private var selectedImage: Image?
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            PhotosPicker("Select a picture", selection: $pickerItem, matching: .images)
+        }
     }
 }
 
 #Preview {
-    _LoadingPhotosView()
+    LoadingPhotosView()
 }
