@@ -4,12 +4,16 @@
 //
 //  Created by OLEKSANDR ISAIEV on 31.12.2023.
 //
-
+import StoreKit
 import SwiftUI
 
 struct RatingView: View {
+    @Environment(\.requestReview) var requestReview
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Button("Leave a review") {
+            requestReview()
+        }
     }
 }
 
