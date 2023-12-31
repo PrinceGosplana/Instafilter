@@ -8,14 +8,28 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State private var processedImage: Image?
+    @State private var filterIntensity = 0.5
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        NavigationStack {
+            VStack {
+                Spacer()
+                Spacer()
+                HStack {
+                    Text("Intensity")
+                    Slider(value: $filterIntensity)
+                }
+                HStack {
+                    Button("Change filter") {
+                        
+                    }
+                    Spacer()
+                }
+            }
+            .padding([.horizontal, .bottom])
+            .navigationTitle("Instafilter")
         }
-        .padding()
     }
 }
 
