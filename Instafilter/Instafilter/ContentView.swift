@@ -45,6 +45,9 @@ struct ContentView: View {
                 HStack {
                     Button("Change filter", action: changeFilter)
                     Spacer()
+                    if let processedImage {
+                        ShareLink(item: processedImage, preview: SharePreview("Instafilter image", image: processedImage))
+                    }
                 }
             }
             .padding([.horizontal, .bottom])
@@ -79,13 +82,22 @@ struct ContentView: View {
     }
     
     private func applyProcessing() {
-        currentFilter.setValue(filterIntensity, forKey: kCIInputIntensityKey)
+        applyKeyValue()
         
         guard let outputImage = currentFilter.outputImage else { return }
         guard let cgImage = context.createCGImage(outputImage, from: outputImage.extent) else { return }
         
         let uiImage = UIImage(cgImage: cgImage)
         processedImage = Image(uiImage: uiImage)
+    }
+    
+    private func applyKeyValue() {
+        let inputKeys = currentFilter.inputKeys
+
+        if inputKeys.contains(kCIInputIntensityKey) { currentFilter.setValue(filterIntensity, forKey: kCIInputIntensityKey) }
+        if inputKeys.contains(kCIInputRadiusKey) { currentFilter.setValue(filterIntensity * 200, forKey: kCIInputRadiusKey) }
+        if inputKeys.contains(kCIInputScaleKey) { currentFilter.setValue(filterIntensity * 10, forKey: kCIInputScaleKey) }
+
     }
     
     private func setFilter(_ filter: CIFilter) {
