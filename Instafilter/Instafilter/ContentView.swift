@@ -27,6 +27,8 @@ struct ContentView: View {
                         ContentUnavailableView("No picture", systemImage: "photo.badge.plus", description: Text("Tap to import a photo"))
                     }
                 }
+                .buttonStyle(.plain)
+                
                 Spacer()
                 HStack {
                     Text("Intensity")
